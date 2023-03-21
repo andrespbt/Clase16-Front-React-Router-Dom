@@ -21,7 +21,7 @@ const Beer = () => {
 
   return (
     <div>
-      <h2>Cerveza numero...</h2>
+      <h2>Cerveza numero {id}</h2>
       <div className="card">
         <img
           src={beer.image_url}
