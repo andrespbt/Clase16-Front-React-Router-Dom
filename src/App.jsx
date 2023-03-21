@@ -1,10 +1,13 @@
+import Navbar from './components/Navbar';
+import { AppRouter } from './routes/AppRouter';
 
 function App() {
   return (
-   <div>
-      <h1>Mas que solo bebidas, festejemos el encuentro.</h1> 
-   </div>
-  )
+    <>
+      <Navbar />
+      <AppRouter />
+    </>
+  );
 }
 
-export default App
+export default App;
